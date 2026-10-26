@@ -31,7 +31,7 @@ Better Chat adds private chat, group chat, support/customer-service chat, upload
 
 ## Current Version
 
-**1.0.0**
+**1.0.1**
 
 Better Chat 1.0.0 is the first stable public release.
 
@@ -68,7 +68,7 @@ Better Chat also supports private group conversations, allowing multiple members
 
 When Better Reactions & Likes is installed, chat messages can participate in the shared Better SMF reaction system.
 
-Better Chat includes lifecycle cleanup so reactions are removed when the underlying chat message is permanently deleted. The 1.0.0 release also hardens newly inserted chat IDs against stale reaction rows attaching to reused numeric message IDs.
+Better Chat includes lifecycle cleanup so reactions are removed when the underlying chat message is permanently deleted. The stable line also hardens newly inserted chat IDs against stale reaction rows attaching to reused numeric message IDs.
 
 ## Uploads & Storage
 
