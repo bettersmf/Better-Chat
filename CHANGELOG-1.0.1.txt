@@ -1,0 +1,10 @@
+Better Chat 1.0.1 — Maintenance Stable Release
+
+- Adds direct upgrade support from Better Chat 1.0.0.
+- Adds direct upgrade support for real late test builds omitted by the 1.0.0 manifest:
+  test36, test36a, test36c, test36d, test37, test37d, and test38a.
+- Retains all Better Chat 1.0.0 runtime behavior and database schema.
+- Retains session validation for message sends, uploads, reactions, private-group actions, and support mutations.
+- Retains Better Reactions lifecycle cleanup and reused-message-ID hardening.
+- Retains Better Storage/S3 integration, support/customer-service mode, private groups, moderation, retention, and full-page chat.
+- No database schema changes.

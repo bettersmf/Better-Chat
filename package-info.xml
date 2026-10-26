@@ -1,0 +1,1010 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://simplemachines.org">
+<package-info xmlns="http://simplemachines.org" xmlns:smf="http://smf.org">
+	<id>BetterSMF:BetterChat</id>
+	<name>Better Chat</name>
+	<version>1.0.1</version>
+	<type>modification</type>
+
+	<install for="2.1 - 2.1.99">
+		<database>install.php</database>
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="Themes/default/images/admin/better_chat.png" destination="$themes_dir/default/images/admin" />
+		<require-file name="Themes/default/images/admin/big/better_chat.png" destination="$themes_dir/default/images/admin/big" />
+	</install>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test1">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test2">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test3">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test4">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test5">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test6">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test7">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test8">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test9">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test10">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test11">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test12">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test13">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test14">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test15">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test16">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test17">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test18">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test19">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test20">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test21">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test22">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test23">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test24">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test25">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test26">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test30">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test30a">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test30b">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test31">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test31b">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test31c">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$boarddir/Themes/default/css" />
+		<code>install.php</code>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test31d">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test31h">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test31m">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="BetterChat.css" destination="$themedir/css" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+	</upgrade>
+
+	<!-- test32r: suspension notice minimize/restore states. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test32q">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<!-- test32s: no-flash suspension bootstrap. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test32r">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<uninstall for="2.1 - 2.1.99">
+		<code>uninstall_hooks.php</code>
+		<database>uninstall.php</database>
+		<remove-file name="$sourcedir/ChatHandler.php" />
+		<remove-file name="$languagedir/SmfCustomChat.english.php" />
+		<remove-file name="$boarddir/scripts/BetterChat.js" />
+		<remove-file name="$boarddir/scripts/SupportChat.js" />
+		<remove-file name="$themes_dir/default/css/BetterChat.css" />
+		<remove-file name="$themes_dir/default/images/admin/better_chat.png" />
+		<remove-file name="$themes_dir/default/images/admin/big/better_chat.png" />
+	</uninstall>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test28">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test29">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test31e">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test31f">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test31g">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test31i">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test31j">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test31k">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test31l">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test31n">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test31o">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test31p">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test31q">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test32">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test32a">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test32b">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test32c">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test32d">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test32e">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test32f">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<!-- test32l rollback baseline: restore the last known-good test32g chat/presence code after test32h-test32k experiments. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test32g">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test32h">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test32i">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test32j">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test32k">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<!-- test32m: Better Chat-owned live presence heartbeat; restores Online list without SMF last_login/log_online dependency. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test32l">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<!-- test32n: authoritative restriction presentation layered on the green test32m live-presence baseline. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test32m">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test32n">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<!-- test32p: suspended-member presence heartbeat + restriction notice renderer fix. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test32o">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<!-- test32q: suspended members remain visible but cannot be opened from Online. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test32p">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<!-- test32u: first-page-after-login bootstrap uses authoritative $user_info identity. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test32s">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<!-- test32v: AJAX-login bridge reloads the already-rendered guest page once authentication succeeds. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test32u">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<!-- test32w: browser-independent AJAX login request detection for immediate Chat bootstrap. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test32v">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<!-- test32x: restore Chrome no-flash suspension load gate on top of test32w login bridge. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test32w">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<!-- test32y: deterministic SMF integrate_login marker bridge for immediate post-login render. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test32x">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<!-- test33: private participant clear state + admin private purge + audit logs. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test32y">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<!-- test33a: Logs filters/paging + audited Group Chat-only history clearing. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test33">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<!-- test33b: log detail polish, clickable member references, and exact member activity view. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test33a">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<!-- test33c: granular auto-prune/retention policies with message-linked attachment cleanup. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test33b">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<!-- test33d: move Clear All History into the History and Cleanup section. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test33c">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<!-- test33e: Better Reactions chat_message lifecycle cleanup on permanent deletion. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test33d">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+
+	<!-- test34: dedicated full-page Community / Group Chat pop-out view. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test33e">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+
+	<!-- test34a: restore Better Chat admin icon and prevent duplicate floating bubbles on full-page chat. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test34">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="Themes/default/images/admin/better_chat.png" destination="$themes_dir/default/images/admin" />
+		<require-file name="Themes/default/images/admin/big/better_chat.png" destination="$themes_dir/default/images/admin/big" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<!-- test34b: render full-page chat through SMF normal template lifecycle; fixes duplicate render/main-template error. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test34a">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="Themes/default/images/admin/better_chat.png" destination="$themes_dir/default/images/admin" />
+		<require-file name="Themes/default/images/admin/big/better_chat.png" destination="$themes_dir/default/images/admin/big" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<!-- test34c: make full-page chat sub-template source-owned so custom themes / missing copied template files cannot break action=chat_full. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test34b">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="Themes/default/images/admin/better_chat.png" destination="$themes_dir/default/images/admin" />
+		<require-file name="Themes/default/images/admin/big/better_chat.png" destination="$themes_dir/default/images/admin/big" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<!-- test34d: keep private chats on the right side of full-page Group Chat and honor Messenger-style bubble minimization there. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test34c">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="Themes/default/images/admin/better_chat.png" destination="$themes_dir/default/images/admin" />
+		<require-file name="Themes/default/images/admin/big/better_chat.png" destination="$themes_dir/default/images/admin/big" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<!-- test35a: private-group conversation foundation; adds conversation, participant and message-map tables while preserving existing one-to-one behavior. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test34d">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="Themes/default/images/admin/better_chat.png" destination="$themes_dir/default/images/admin" />
+		<require-file name="Themes/default/images/admin/big/better_chat.png" destination="$themes_dir/default/images/admin/big" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<!-- test35b: Add People member picker, direct-to-private-group conversion, private group messaging and Leave Conversation. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test35a">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="Themes/default/images/admin/better_chat.png" destination="$themes_dir/default/images/admin" />
+		<require-file name="Themes/default/images/admin/big/better_chat.png" destination="$themes_dir/default/images/admin/big" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test35b">
+		<require-file name="install.php" destination="$boarddir" />
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="BetterChat.js" destination="$themedir/scripts" />
+		<require-file name="BetterChat.css" destination="$themedir/css" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="uninstall.php" destination="$boarddir" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<code>install.php</code>
+	</upgrade>
+
+	<!-- test35d: online-aware member picker and compact symbol-only private/group chat header controls. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test35c">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="Themes/default/images/admin/better_chat.png" destination="$themes_dir/default/images/admin" />
+		<require-file name="Themes/default/images/admin/big/better_chat.png" destination="$themes_dir/default/images/admin/big" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<!-- test35e: Stage 2C private-group polish: custom names, participant strip cleanup, and Messenger-style minimized group bubbles. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test35d">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="Themes/default/images/admin/better_chat.png" destination="$themes_dir/default/images/admin" />
+		<require-file name="Themes/default/images/admin/big/better_chat.png" destination="$themes_dir/default/images/admin/big" />
+		<require-file name="uninstall_hooks.php" destination="$boarddir" />
+		<database>install.php</database>
+	</upgrade>
+
+	<!-- test35f: larger presentation for Unicode emoji-only chat messages. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test35e">
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+	</upgrade>
+
+	<!-- test36: optional GIPHY GIF picker with admin enable/key controls across community, private, private-group, full-page and support chat. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test35f">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<!-- test36c: synchronize direct-to-group conversion for every participant and repair private-group composer geometry. -->
+	<!-- test36e: restore minimized private chats at newest message and prevent Edge touch/click double-toggle. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test36b">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+	</upgrade>
+
+	<!-- test36f: deterministic restore-to-latest scrolling that waits for layout/media while preserving manual history scrolling. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test36e">
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+	</upgrade>
+
+	<!-- test37: Stage 3A full-page conversation hub with public/direct/group tabs, shared unread badges, More overflow, mobile scrolling, and private-chat pop-out links. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test36f">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+	</upgrade>
+
+	<!-- test37b: stop Firefox full-page AJAX polling from creeping the message scroll position via native scroll anchoring. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test37a">
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+	</upgrade>
+
+	<!-- test37c: Firefox full-page polling now skips unchanged DOM rebuilds and restores history by message anchor instead of scrollHeight deltas. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test37b">
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+	</upgrade>
+
+	<!-- test37d: prevent Better Chat page output from contaminating SMF binary/raw responses such as verification CAPTCHA images. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test37c">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<!-- test38a: repair the Better Storage connected-status handshake from test38. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test38">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<database>install.php</database>
+	</upgrade>
+
+	<!-- test38c: force moderation helper text below its label with consistent spacing on custom/dark themes. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test38b">
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+	</upgrade>
+
+	<!-- test38d: sanitize newly inserted chat-message IDs so stale Better Reactions rows cannot attach when a numeric ID is reused. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test38c">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+	</upgrade>
+
+	<!-- Stable 1.0.0: release-audit hardening and complete install/uninstall lifecycle cleanup. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0-test38d">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="Themes/default/images/admin/better_chat.png" destination="$themes_dir/default/images/admin" />
+		<require-file name="Themes/default/images/admin/big/better_chat.png" destination="$themes_dir/default/images/admin/big" />
+		<database>install.php</database>
+	</upgrade>
+
+	<!-- 1.0.1: maintenance release adds complete direct upgrade coverage from stable 1.0.0 and late test builds omitted by the 1.0.0 manifest. -->
+	<upgrade for="2.1 - 2.1.99" from="1.0.0,1.0.0-test36,1.0.0-test36a,1.0.0-test36c,1.0.0-test36d,1.0.0-test37,1.0.0-test37d,1.0.0-test38a">
+		<require-file name="ChatHandler.php" destination="$sourcedir" />
+		<require-file name="SmfCustomChat.english.php" destination="$languagedir" />
+		<require-file name="BetterChat.js" destination="$boarddir/scripts" />
+		<require-file name="SupportChat.js" destination="$boarddir/scripts" />
+		<require-file name="BetterChat.css" destination="$themes_dir/default/css" />
+		<require-file name="Themes/default/images/admin/better_chat.png" destination="$themes_dir/default/images/admin" />
+		<require-file name="Themes/default/images/admin/big/better_chat.png" destination="$themes_dir/default/images/admin/big" />
+		<database>install.php</database>
+	</upgrade>
+
+</package-info>

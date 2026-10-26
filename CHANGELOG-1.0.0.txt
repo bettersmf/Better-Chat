@@ -1,0 +1,11 @@
+Better Chat 1.0.0 — Stable Release
+
+Release-audit hardening:
+- Added SMF POST session validation to normal message sends and attachment uploads.
+- Added matching session tokens to the Better Chat JavaScript send/upload paths.
+- Completed destructive uninstall coverage for private-group conversation tables.
+- Completed destructive uninstall cleanup for GIPHY settings.
+- Removed Better Chat admin icons during uninstall.
+- Safely cleans legacy Better Chat uninstall helper copies left in the forum root by older test upgrades.
+- Retains test38d reaction lifecycle ID-reuse hardening.
+- Retains raw-response/CAPTCHA protection, support mode, private groups, full-page hub, moderation, retention, Better Storage integration, and Better Reactions integration.
