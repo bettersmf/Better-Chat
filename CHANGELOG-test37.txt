@@ -1,0 +1,9 @@
+Better Chat 1.0.0-test37 - Stage 3A Full-Page Conversation Hub
+
+- Full-page Better Chat now has Public Chat plus direct/private-group conversation tabs.
+- Unread badges appear on inactive chat tabs and clear when that conversation is viewed.
+- Background full-page polling no longer marks private/direct or private-group conversations read until their tab is opened.
+- Desktop keeps up to five visible tabs and moves overflow conversations into More.
+- Mobile uses a horizontally scrollable conversation tab row.
+- Private and private-group floating headers now include a full-page pop-out shortcut.
+- Full-page private conversations reuse the existing message, GIF, attachment, reaction, rename and member-picker code instead of duplicating chat logic.

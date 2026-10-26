@@ -1,0 +1,8 @@
+Better Chat 1.0.0-test37c - Firefox Full-Page Deterministic Scroll
+
+- Full-page AJAX polls no longer rebuild the message DOM when the rendered HTML is unchanged.
+- Replaced scrollHeight-delta history restoration with message-anchor + pixel-offset restoration.
+- Preserves the exact visible message position when new content/reactions change the DOM.
+- Keeps near-bottom chats following the newest messages normally.
+- Firefox native scroll anchoring remains disabled during controlled full-page replacements.
+- Floating chat windows retain their existing behavior.

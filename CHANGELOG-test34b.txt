@@ -1,0 +1,5 @@
+Better Chat 1.0.0-test34b
+- Fixed standalone full-page chat rendering through SMF's normal template lifecycle.
+- Removed manual template_header()/template_footer() calls that caused a second render and "Unable to load the 'main' template.".
+- Added BetterChatFull.template.php for the dedicated full-page chat content.
+- Preserved test34a admin icon restoration and full-page bubble suppression.

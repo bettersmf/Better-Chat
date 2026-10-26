@@ -1,0 +1,7 @@
+Better Chat 1.0.0-test35f - Emoji-Only Message Sizing
+
+- Detects messages that contain Unicode emoji (and whitespace) only.
+- Enlarges emoji-only chat bubbles for a more natural Messenger-style presentation.
+- Normal text + emoji messages keep the standard message size.
+- Attachments, video, images, system messages, and normal BBC-rendered content are unaffected.
+- Supports joined emoji, skin tones, flags, keycaps, and the symbol ranges used by Better Chat's emoji picker.

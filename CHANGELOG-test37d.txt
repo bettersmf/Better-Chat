@@ -1,0 +1,7 @@
+Better Chat 1.0.0-test37d - Raw Response / CAPTCHA Safety
+
+- Fixed broken SMF verification CAPTCHA images while Better Chat is enabled.
+- chat_load_assets() now exits before any output for raw/non-page actions.
+- Explicitly excludes verificationcode, dlattach, and chat_msg from floating-chat page injection.
+- Prevents the guest login-marker bridge script from contaminating binary GIF/PNG responses.
+- Based directly on the known-good test37c Firefox deterministic message-anchor build.

@@ -1,0 +1,7 @@
+Better Chat 1.0.0-test34c
+
+- Fixed action=chat_full failing with "Unable to load the BetterChatFull template."
+- Moved the full-page sub-template into ChatHandler.php so it is source-owned and cannot be masked by custom-theme template resolution or missed theme-file copies during upgrade.
+- Removed the BetterChatFull.template.php package dependency.
+- Preserved the test34a admin icon restoration and full-page duplicate-bubble suppression.
+- Preserved test34b normal SMF template lifecycle rendering.

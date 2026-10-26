@@ -1,0 +1,6 @@
+Better Chat 1.0.0-test37a - Full-Page Single-Conversation + Header Icon Fix
+
+- Fixed Stage 3A full-page hub so only the selected conversation occupies the chat canvas.
+- Public Chat is fully hidden while a direct/private-group room is selected, rather than remaining above it in a split view.
+- Public Chat restores normally when its tab is selected again.
+- Forced private/full-page header action glyphs to remain white/header-text colored across link, visited, hover, focus, and active states.

@@ -1,0 +1,6 @@
+Better Chat 1.0.0-test38c — Moderation Helper Text Layout Polish
+
+- Forces each Moderation field label onto its own line.
+- Forces helper/small text directly beneath the main label with a consistent 5px gap.
+- Retains the dark/custom-theme contrast improvements from test38b.
+- CSS/package metadata only; no chat, storage, moderation logic, AJAX, or CAPTCHA/raw-response behavior changed.

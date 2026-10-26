@@ -1,0 +1,5 @@
+Better Chat 1.0.0-test36b
+
+- Fixed composer text running underneath the Emoji/GIF/Attachment action rail.
+- Expanded the reserved input padding to account for the new GIF control.
+- Normalized the GIF button footprint with the other composer controls.

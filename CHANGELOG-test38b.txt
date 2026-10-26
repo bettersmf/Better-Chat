@@ -1,0 +1,5 @@
+Better Chat 1.0.0-test38b — Moderation Admin Contrast Polish
+
+- Adds Better Chat-specific admin classes to the Moderation form.
+- Forces readable label and helper-text contrast on dark/custom themes.
+- No chat, storage, moderation behavior, or CAPTCHA/raw-response logic changed.

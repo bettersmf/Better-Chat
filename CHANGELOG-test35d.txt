@@ -1,0 +1,10 @@
+Better Chat 1.0.0-test35d
+
+- Add People picker now shows matching members with live presence status.
+- Online/eligible members show a green bullet and are clickable.
+- Offline members show a grey bullet and remain visible but disabled.
+- Existing participants and private-chat-restricted members remain visible but disabled with a status reason.
+- Server-side Add People validation now rejects offline/restricted members even if a request is tampered with.
+- Tightened private and private-group headers to symbol-only controls with mouse-over titles.
+- Added explicit + Add person, - Minimize, clear-view symbol, sound, Leave, and X Close controls.
+- Fixed test35c upgrade asset destinations by restoring BetterChat.js to /scripts and BetterChat.css to the default theme CSS directory.

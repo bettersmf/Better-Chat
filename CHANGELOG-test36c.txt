@@ -1,0 +1,8 @@
+Better Chat 1.0.0-test36c
+Private Group Conversion Sync + Composer Fix
+
+- Fixed receiver-side direct-to-group conversion so the original two-person window is retired for both original participants, not only the member who clicked Add People.
+- Group discovery now carries the original direct pair so a stale direct window can be retired even if it did not yet have its conversation ID attached in the DOM.
+- Legacy direct messages that belong to a converted private group no longer trigger/open a second direct-chat window through public polling or incoming-private discovery.
+- Private-group message input now uses the same full-width, box-sizing and 104px action-rail reservation as the other Better Chat composers.
+- GIF and attachment controls stay inside the private-group input shell, and typed text can no longer run beneath the emoji/GIF/attachment rail.

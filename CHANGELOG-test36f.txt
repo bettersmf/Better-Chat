@@ -1,0 +1,7 @@
+Better Chat 1.0.0-test36f - Deterministic Restore-to-Latest Scroll
+
+- Reworked private/private-group restore scrolling so opening a conversation reliably lands on the newest message after page changes and bubble restores.
+- Keeps the chat pinned through the short browser layout window while images, GIFs, and video metadata finish sizing.
+- Any real wheel/touch/pointer interaction immediately cancels the temporary pin.
+- Normal polling still preserves the reader's position when they intentionally scroll upward through history.
+- Keeps the test36e Edge minimize fix and private-group rename behavior unchanged.

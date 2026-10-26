@@ -1,0 +1,6 @@
+Better Chat 1.0.0-test36e - Restore-to-Latest + Edge Minimize Fix
+
+- Private and private-group chats now scroll to the newest message when restored from a Messenger bubble.
+- Polling still preserves the reader's position when they deliberately scroll upward; this change only forces bottom when reopening a minimized chat.
+- Uses a double requestAnimationFrame after reveal so Edge measures the restored chat body after layout instead of while it is still effectively hidden.
+- Private-group header minimize now listens to a single click activation instead of click + touchstart, preventing Edge/Chromium touch-capable systems from double-toggling the window.

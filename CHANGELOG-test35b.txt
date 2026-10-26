@@ -1,0 +1,12 @@
+Better Chat 1.0.0-test35b - Private Group Conversations: Add People + Leave Group
+
+- Adds a searchable AJAX member picker to private chats; no member IDs are exposed in the UI.
+- Adding a third member converts the existing direct conversation into a private group without discarding history.
+- Existing participants and the current member are excluded from picker results.
+- Adds private-group message windows using the Stage 2A conversation/participant tables.
+- Added members discover the private group automatically through normal Better Chat polling.
+- Adds system notices when members are added or leave.
+- Adds Leave Conversation for private groups.
+- Private groups support text messages, image/video attachments, reactions, restrictions and participant display.
+- Direct one-to-one chat remains unchanged until a member is added.
+- Custom group naming and Messenger-style private-group bubble polish remain reserved for Stage 2C.

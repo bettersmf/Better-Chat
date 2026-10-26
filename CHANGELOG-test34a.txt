@@ -1,0 +1,5 @@
+Better Chat 1.0.0-test34a
+- Restored dedicated Better Chat admin icon (small + big).
+- Hardened full-page chat detection so floating Community/Support widgets are not injected there.
+- Removes stale/cached Community/Support bubbles if they still exist on the pop-out page.
+- Tightened full-page flex sizing to prevent message/user-list width oddities.

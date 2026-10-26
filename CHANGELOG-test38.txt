@@ -1,0 +1,11 @@
+Better Chat 1.0.0-test38 — Better Storage Adapter (First Pass)
+
+- Adds optional Better Storage integration for new Better Chat media.
+- Uses the Better Storage chat route/prefix (better-chat/ by default).
+- New Community/Private Chat images and videos can be stored in Amazon S3.
+- New Support screenshots can be stored in Amazon S3.
+- S3 media is returned only through short-lived signed URLs after Better Chat access checks.
+- Local storage remains the fallback when Better Storage is missing, routed Local, or an S3 transfer fails.
+- Registers/unregisters Better Storage objects for cleanup and dashboard accounting.
+- Extends existing chat history cleanup to remove Better Storage objects.
+- Leaves Better Chat raw-response/CAPTCHA guard code untouched.

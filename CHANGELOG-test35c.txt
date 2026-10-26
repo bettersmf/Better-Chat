@@ -1,0 +1,8 @@
+Better Chat 1.0.0-test35c
+
+- Converted direct chat now cleanly becomes the private group window instead of leaving both windows open.
+- Handles the polling race where the group may open before the Add People response returns.
+- Removes stale direct-chat bubbles/session state after conversion.
+- Compacts private-group header actions into icon buttons.
+- Adds title ellipsis/tooltips so long participant names no longer crush or wrap the header.
+- Keeps the participant list visible beneath the header for clarity.

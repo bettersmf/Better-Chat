@@ -1,0 +1,6 @@
+Better Chat 1.0.0-test37b - Firefox Full-Page Scroll Stability
+
+- Fixed Firefox-only upward scroll creep on every AJAX refresh in the dedicated full-page chat.
+- Disabled native CSS scroll anchoring on the full-page public/direct/private-group message panes.
+- Full-page DOM replacement now explicitly restores the calculated scrollTop across Firefox layout frames.
+- Floating chat windows retain the existing scroll behavior.

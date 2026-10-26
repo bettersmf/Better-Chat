@@ -1,0 +1,7 @@
+Better Chat 1.0.0-test34d
+
+- Full-page Group Chat now keeps open private chat windows anchored to the right side of the viewport.
+- Full-page Group Chat now honors the configured private-chat minimize style instead of forcing compact window bars.
+- Messenger-style private-chat minimization now uses the existing circular bubble rail on the standalone chat page.
+- Minimized private bubbles stay on the right-side rail instead of being pushed above the full-page Group Chat canvas.
+- Preserves test34c source-owned full-page template fix and restored Better Chat admin icon.

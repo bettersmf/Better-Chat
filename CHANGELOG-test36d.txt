@@ -1,0 +1,7 @@
+Better Chat 1.0.0-test36d
+
+Private-group minimize parity
+- Private-group header clicks now respect the configured private minimize style.
+- In Messenger/bubble mode, clicking the header or the minus button minimizes directly to the group bubble.
+- Removed the accidental intermediate collapsed header-bar state in bubble mode.
+- Non-bubble mode keeps the compact collapsed-header behavior.

@@ -1,0 +1,9 @@
+Better Chat 1.0.0-test35a - Private Group Conversation Foundation
+
+- Adds chat_conversations for stable conversation identities.
+- Adds chat_conversation_members for participant membership, roles, clear/read state and future leave support.
+- Adds chat_conversation_messages to map existing chat message IDs to conversations without rewriting chat_messages.
+- Existing one-to-one private chats are converted lazily: opening/sending in a private chat creates one direct conversation shell and links the existing pair history.
+- The existing private chat UI, sender/receiver API, reactions, uploads, unread handling, clear-my-view behavior and moderation remain unchanged.
+- Private fetch responses now include an internal conversation_id for later Stage 2 passes; current JavaScript safely ignores it.
+- This is a foundation pass only: Add People, named groups, leave/remove member controls and group bubbles are intentionally deferred until the data layer is proven stable.

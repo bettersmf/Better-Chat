@@ -1,0 +1,10 @@
+Better Chat 1.0.0-test36 - GIPHY GIF Picker
+=============================================
+- Adds Admin > Better Chat > Settings > GIFs (GIPHY).
+- Admin can enable/disable the GIF picker and enter a GIPHY Web API key.
+- GIF button appears only when enabled and a key is configured.
+- Picker opens with GIPHY Trending and supports live Search.
+- Selected GIFs send into Group Chat, one-to-one private chat, private-group chat, full-page chat, and active Support conversations.
+- GIF-only messages render as clean media without an oversized text bubble.
+- Includes visible Powered by GIPHY attribution in the picker.
+- GIPHY Web API key is intentionally available client-side because GIPHY requires Trending API calls from the client.

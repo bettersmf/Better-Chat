@@ -1,0 +1,7 @@
+Better Chat 1.0.0-test38d — Reaction Lifecycle ID-Reuse Hardening
+
+- Sanitizes every newly inserted chat_messages ID before the message can be rendered or polled.
+- Removes orphaned Better Reactions `chat_message` rows that may still reference a numeric ID reused after physical history cleanup/table reset.
+- Covers normal Group Chat messages, direct/private messages, uploads, and private-group conversation messages.
+- Retains the permanent-delete reaction cleanup added in the earlier reaction lifecycle passes.
+- Prevents a newly sent message from inheriting a stale reaction belonging to a previously deleted message with the same numeric ID.

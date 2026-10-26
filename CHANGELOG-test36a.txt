@@ -1,0 +1,6 @@
+Better Chat 1.0.0-test36a - GIPHY Picker Viewport Position Fix
+
+- Raises the GIF picker above chat controls so the full picker stays comfortably visible.
+- Repositions the picker after GIPHY thumbnails load, preventing the expanded result grid from dropping below the viewport.
+- Clamps the picker to the visible browser window on desktop and smaller screens.
+- Applies the same positioning behavior to Support Chat.

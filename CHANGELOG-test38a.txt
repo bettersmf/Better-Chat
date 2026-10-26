@@ -1,0 +1,6 @@
+Better Chat 1.0.0-test38a — Better Storage Handshake Fix
+
+- Fixes the Better Storage connected-status handshake introduced in test38.
+- Moves the integration registration into executable install/upgrade PHP instead of text after the closing PHP tag.
+- Loads Better Storage and marks Better Chat Connected only when the Better Storage source API is available.
+- Leaves the test37d CAPTCHA/raw-response guard and test38 storage adapter behavior unchanged.

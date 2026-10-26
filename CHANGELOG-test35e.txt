@@ -1,0 +1,11 @@
+Better Chat 1.0.0-test35e - Private Group Polish
+
+- Adds a symbol-only rename control (pencil) to private-group headers.
+- Adds a compact rename dialog; blank names restore the automatic participant-based title.
+- Persists custom conversation titles server-side and records rename events as system messages.
+- Cleans the participant strip into a compact people-count + member-name presentation.
+- Adds Messenger-style minimized bubbles for private group conversations.
+- Group bubbles use stacked participant initials and support local unread badges.
+- Clicking a private-group bubble restores the existing group window.
+- Keeps non-Messenger minimize behavior as the compact header bar.
+- Group bubble/title metadata stays synchronized after rename and participant refresh.
